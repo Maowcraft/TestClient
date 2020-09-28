@@ -13,6 +13,9 @@ public class Terminal {
         System.out.print(ConsoleColors.BLUE + "> " + ConsoleColors.RESET);
         String[] input = scanner.nextLine().split("\\s+");
         String command = input[0];
+        if (command.equals("kill") || command.equals("close") || command.equals("exit")) {
+            System.exit(0);
+        }
         String[] args = Arrays.copyOfRange(input, 1, input.length);
         processInput(command, args);
     }
