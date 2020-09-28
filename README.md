@@ -25,3 +25,13 @@ This is a very modular system, you're able to add and remove commands, but there
 * `chat <message>` - Pastes the contents of the message to the ingame chat, nobody but the client can see it.
 * `giveitem <item id> <count>` - Adds a single type of item to the player's inventory, amount is based on count argument.
 
+## Screenshots
+
+*Taken in a development environment.*
+
+![Sending commands](https://i.imgur.com/np2CgJ0.png "Sending commands")
+
+![Client receiving and logging commands](https://i.imgur.com/2Vjd3pn.png "Client receiving and logging commands")
+
+![The outcome](https://i.imgur.com/gwJsIRg.png "The outcome")
+
