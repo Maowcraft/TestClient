@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "testclientendpoint",
+  "version": "${version}",
+  "name": "TestClient Endpoint",
+  "description": "An endpoint for TestClient.",
+  "authors": [
+    "Maow"
+  ],
+  "license": "MIT",
+  "icon": "assets/testclientendpoint/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "maow.testclientendpoint.TestClientEndpoint"
+    ],
+    "client": [
+      "maow.testclientendpoint.TestClientEndpointClient"
+    ]
+  },
+  "mixins": [
+    "testclientendpoint.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.10.0+build.208",
+    "fabric": "*",
+    "minecraft": "1.16.3"
+  }
+}
