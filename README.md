@@ -16,7 +16,7 @@ A "console app to Minecraft" test mod that utilizes [Ncyclo](https://github.com/
 4. Run Minecraft.
 5. Download the console app.
 6. Open a new console, and run the console app like so `java -jar <filename>.jar [true/false]` - The true/false enables logging on the clientside.
-7. You're done.
+7. You're done. If you wish to close the server, run the kill command: `[kill/stop/close]`
 
 ## Commands
 
